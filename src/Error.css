@@ -1,0 +1,8 @@
+.bindup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background: linear-gradient(#cc2b5e, #753a88);
+    color: aliceblue;
+}

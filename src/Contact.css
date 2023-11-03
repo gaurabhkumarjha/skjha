@@ -1,0 +1,28 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+.btn-success{
+    margin-top: 10px;
+}
+.offcanvas{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    
+}
+
+.touch{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#cc2b5e, #753a88);
+    margin-top: 5px;
+    border-radius: 22px;
+    color: aqua;
+    border-bottom: 2px solid blue;
+}

@@ -1,0 +1,21 @@
+.card-title {
+    color: red;
+}
+
+.card-text {
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid wheat;
+}
+
+.card-img-top {
+    margin-top: 3px;
+}
