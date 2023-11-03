@@ -13,23 +13,13 @@ const Jumbotron = () => {
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <img src={Qrcode} alt="qrcode" style={{width: "5rem", "border-right": "2px solid blue"}} className="qrcode"/>
+                    <img src={Qrcode} alt="qrcode" style={{ width: "5rem", "border-right": "2px solid blue" }} className="qrcode" />
                     <ol className="howtopayqr">
                         <p>How to pay using QR code.</p>
                         <li>Open your UPI app like Google Pay, Paytm, PhonePay etc.</li>
                         <li>Scan QR code</li>
                         <li>Enter Amount and Your Details like Name and Phone Number in Notes Section</li>
                     </ol>
-                    <div className="or"><h4>or</h4></div>  
-                    <p className="paytmupi">UPI ID: 9773870841709@paytm || UPI ID: gaurabhkumarjha27102001@okhdfcbank</p>
-                    <ol className="howtopayupi">
-                        <p>How to pay using UPI ID.</p>
-                        <li>Open your UPI app like Google Pay, Paytm, PhonePay etc.</li>
-                        <li>Goto Pay UPI ID Section.</li>
-                        <li>Type any one UPI ID in your UPI app</li>
-                        <li>Enter Amount and Your Details like Name and Phone Number in Notes Section</li>
-                    </ol> 
-
                 </div>
             </div>
         </>

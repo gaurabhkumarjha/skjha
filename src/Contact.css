@@ -1,12 +1,15 @@
 .cont{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: auto;
-    margin-top: 100px;
+    margin-top: 20px;
 }
-.btn-success{
+.btn-dark{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     margin-top: 10px;
+    cursor: pointer;
+    
 }
 .offcanvas{
     display: flex;
@@ -16,13 +19,6 @@
     border-radius: 10px;
     
 }
-
-.touch{
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(#cc2b5e, #753a88);
-    margin-top: 5px;
-    border-radius: 22px;
-    color: aqua;
-    border-bottom: 2px solid blue;
+.crd-cont{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

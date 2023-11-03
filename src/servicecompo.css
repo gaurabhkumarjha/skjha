@@ -6,7 +6,7 @@
     color: black;
 }
 
-.card {
+.cardforservice{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -14,6 +14,7 @@
     margin-right: auto;
     border-radius: 10px;
     border: solid wheat;
+    box-shadow: 5px 5px 10px #ccc;
 }
 
 .card-img-top {

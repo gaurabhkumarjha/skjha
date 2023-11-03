@@ -1,6 +1,6 @@
 .navbar{
-    background-color: darkgray;
-    border-radius: 33px;
+    background-color: antiquewhite;
+    color: black;
 }
 .fright{
     margin: auto;
@@ -19,12 +19,12 @@
     margin: auto;
 }
 .nav-item a:hover{
-    color: ghostwhite;
+    color: red;
     border-bottom: 2px solid blue;
 }
 
 .bgwar{
-    background-color: rgba(255, 193, 7);
+    /*background-color: rgba(255, 193, 7);*/
     border-radius: 20px;
 }
 

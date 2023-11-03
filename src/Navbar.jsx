@@ -16,7 +16,7 @@ const Navbar = () => {
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="/">
                                 <img src="https://t3.ftcdn.net/jpg/05/27/90/76/360_F_527907602_yT0DhDWezRiwsawY7OLkptYErjYLBJeC.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top" />
-                                @SunilKumarJha
+                                SK_Jha
                             </a>
 
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@ const Navbar = () => {
                                 <ul class="navbar-nav fright">
                                     {isAuthenticated && (
                                         <div>
-                                            <p>{user.name}</p>
+                                            <p>Hi, {user.name}</p>
                                         </div>
                                     )}
 
@@ -51,13 +51,10 @@ const Navbar = () => {
                                         <a class="nav-link" href="/service">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/location">Location</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="nav-link" href="/contact">Contact</a>
                                     </li>
                                     <li class="nav-item bgwar">
-                                        <a class="nav-link" href="/Offers">Offers!</a>
+                                        <a class="nav-link" href="/Offers">Offers</a>
                                     </li>
                                 </ul>
                             </div>

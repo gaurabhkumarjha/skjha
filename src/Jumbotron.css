@@ -5,12 +5,6 @@
   margin-left: 70px;
 }
 
-.or {
-  display: flex;
-  justify-content: center;
-  margin-top: -84px;
-}
-
 .paytmupi {
   display: flex;
   justify-content: center;
@@ -29,11 +23,6 @@
 }
 
 @media (max-width: 1200px) {
-  .or {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
 
   .paytmupi {
     margin-top: 20px;
@@ -46,4 +35,11 @@
     margin-top: 5px;
      float: left;
   }
+}
+
+.r-cen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
